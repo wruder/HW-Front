@@ -1,0 +1,26 @@
+.block_img {
+    height: 400px;
+    background-color: #fff8dc;
+    background-image: url("../images/icath.jpeg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-size: 25%;
+
+}
+
+.red {
+    background-image: url("../images/red.jpeg");
+    background-position:center 50%;
+    background-size: 200% ;
+    background-repeat: no-repeat,no-repeat;
+    background-attachment: scroll fixed;
+}
+.red::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}

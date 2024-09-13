@@ -1,0 +1,38 @@
+.inner {
+background-color: blue;
+width: 100px;
+height: 100px;
+margin-bottom: 10px;
+
+}
+.inner2 {
+width:100px ;
+height:100px ;
+background-color: aqua;
+margin-top: 10px;
+margin-top: 10px;
+}
+.external {
+
+background-color: blueviolet;
+width: 250px;
+/*border-width:10px ;*/
+border:dashed 10px black ;
+/*border-color:black ;
+/*border-style:dashed;
+
+/*height: 250px;
+/*padding-top: 10px;
+padding-left:10px ;
+padding-right: 10px;
+padding-bottom: 10px;*/
+padding: 10px;
+
+/*padding: 10px 10px;
+
+/*padding: 10px 10px 10px;
+
+padding: 10px 10px 10px 10px;*/
+
+
+}

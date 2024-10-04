@@ -1,0 +1,36 @@
+.container {
+    background-color: antiquewhite; 
+    display: flex; 
+    flex-direction: column;
+    justify-content:flex-end;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 90vh;
+    
+  }
+  .item {
+   width: 100px;
+   height: 100px;
+   background-color: antiquewhite;
+   border: 2px solid red;
+  
+  
+  }
+  footer{
+    background-color: aquamarine;
+    height: 400px;
+    
+  }
+  .footert-items {
+    display:flex ;
+    height: 100%;
+
+  }
+  .footer-cool {
+    flex-basis:25% ;
+    height: 100%;
+    display: flex;
+    
+
+  }

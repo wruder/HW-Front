@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+
+
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+}
+
+.header {
+    height: 60px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.nav {
+    height: 40px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.main {
+
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(245, 220, 231);
+    overflow: auto;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.section {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-right: 10px;
+    overflow-y: auto;
+    max-height: calc(100vh-150px);
+    cursor: grab;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.aside {
+    flex: 0 0 200px;
+    background-color: chartreuse;
+    border-radius: 20px;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: calc(100vh-150px);
+    cursor: grab;
+
+}
+.aside:hover {
+    cursor: grabbing;
+}
+
+.footer {
+    height: 60px;
+    background-color: coral;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+
+.article {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: burlywood;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    flex-grow: 1;
+}
